@@ -4,7 +4,7 @@
 Summary:	Fingerprint support for KDM
 Name:	  	kdmfprintplugin
 Version:	0.0
-Release:	%mkrel 0.%svn_snapshot.1
+Release:	%mkrel 0.%svn_snapshot.2
 License:	GPLv2+
 Group:		System/Configuration/Packaging
 Source0: 	%oname-%version.%svn_snapshot.tar.bz2
@@ -12,6 +12,8 @@ URL:		http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/kde4-migrate-wizard/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	kdelibs4-devel
 BuildRequires:  kdebase4-workspace-devel
+Requires:       kfingermanager
+
 %description
 Fingerprint support for KDM
 
