@@ -4,7 +4,7 @@
 Summary:	Fingerprint support for KDM
 Name:	  	kdmfprintplugin
 Version:	0.0
-Release:	%mkrel 0.%svn_snapshot.3
+Release:	%mkrel 0.%svn_snapshot.4
 License:	GPLv2+
 Group:		System/Configuration/Packaging
 Source0: 	%oname-%version.%svn_snapshot.tar.bz2
