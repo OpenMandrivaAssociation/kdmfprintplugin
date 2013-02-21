@@ -4,7 +4,7 @@
 Summary:	Fingerprint support for KDM
 Name:		kdmfprintplugin
 Version:	0.0
-Release:	0.%{svn_snapshot}.6
+Release:	0.%{svn_snapshot}.7
 License:	GPLv2+
 Group:		System/Configuration/Packaging
 URL:		http://websvn.kde.org/trunk/playground/base/kfingerprint/KDMFprintPlugin/
